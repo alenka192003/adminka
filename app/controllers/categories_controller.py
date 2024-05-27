@@ -3,7 +3,6 @@ from ..models import Category
 
 categories_bp = Blueprint('categories', __name__)
 
-# Временное хранилище данных
 categories = [
     Category(1, 'Clothing'),
     Category(2, 'Accessories')

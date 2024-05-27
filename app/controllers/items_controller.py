@@ -3,7 +3,6 @@ from ..models import Item
 
 items_bp = Blueprint('items', __name__)
 
-# Временное хранилище данных
 items = [
     Item(1, 'Dress', 'A stylish red dress'),
     Item(2, 'Jeans', 'Blue denim jeans')

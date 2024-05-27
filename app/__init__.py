@@ -4,7 +4,6 @@ from flask import Flask
 def create_app():
     app = Flask(__name__)
 
-    # Регистрация контроллеров
     from .controllers.items_controller import items_bp
     from .controllers.categories_controller import categories_bp
     from .controllers.healthcheck_controller import healthcheck_bp
